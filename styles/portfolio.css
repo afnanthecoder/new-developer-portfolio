@@ -1,0 +1,9 @@
+/* shared Font */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+}
