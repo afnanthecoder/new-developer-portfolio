@@ -2,8 +2,40 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+.text-primary{
+    color: #FFC312;
+}
 /* nav related styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav >ul{
+
+    display: flex;
+    align-items: center;
+}
+nav li{
+    font-size: 20px;
+    list-style: none;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #5758BB;
+    
+}
+.btn-primary{
+    margin-top: 5px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    background-color: #FFC312;
+    font-size: 20px;
+    font-weight: 700;
+   
+    
+}
+.p-title{
+    font-size: 45px;
+    color: black;
+    font-weight: 800px;
 }
